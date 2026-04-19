@@ -1,0 +1,27 @@
+{
+  "name": "refactor-code",
+  "owner": {
+    "name": "Stephanie Honore",
+    "email": "stephanie@herdly.ai"
+  },
+  "metadata": {
+    "description": "Principled, pattern-driven code refactoring skill based on refactoring.guru catalog.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "refactor-code",
+      "source": "./plugins/refactor-code",
+      "description": "Refactor code ambitiously using code smells, refactoring techniques, and design patterns from Martin Fowler's catalog and the GoF, cross-checked against language-specific linter rules.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Stephanie Honore"
+      },
+      "homepage": "https://github.com/scarlett-danger/refactor-code-skill",
+      "repository": "https://github.com/scarlett-danger/refactor-code-skill",
+      "license": "MIT",
+      "keywords": ["refactoring", "code-quality", "design-patterns", "code-smells", "fowler", "gof", "solid", "typescript", "python", "react", "go", "cpp"],
+      "category": "development"
+    }
+  ]
+}

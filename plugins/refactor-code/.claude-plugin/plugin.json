@@ -1,0 +1,10 @@
+{
+  "name": "refactor-code",
+  "description": "Refactor code ambitiously using code smells, refactoring techniques, and design patterns from Martin Fowler's catalog and the GoF, cross-checked against language-specific linter rules.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Stephanie Honore"
+  },
+  "license": "MIT",
+  "keywords": ["refactoring", "code-quality", "design-patterns", "code-smells", "fowler", "gof", "solid"]
+}
