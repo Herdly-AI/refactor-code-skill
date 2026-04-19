@@ -1,6 +1,6 @@
 # refactor-code
 
-[![Validate](https://github.com/scarlett-danger/refactor-code-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/scarlett-danger/refactor-code-skill/actions/workflows/validate.yml)
+[![Validate](https://github.com/Herdly-AI/refactor-code-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/Herdly-AI/refactor-code-skill/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-compatible-blueviolet)](https://agentskills.io/)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-plugin-orange)](https://code.claude.com/docs/en/plugin-marketplaces)
