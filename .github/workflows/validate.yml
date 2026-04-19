@@ -1,0 +1,34 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate manifests and skill
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Validate marketplace.json, plugin.json, and SKILL.md
+        run: python scripts/validate.py
+
+      # The authoritative validator is `claude plugin validate .` from the
+      # Claude Code CLI. We run our own lightweight checks in CI so validation
+      # doesn't require installing Claude Code on every runner. When making
+      # substantive schema changes, run `claude plugin validate .` locally
+      # before pushing.
