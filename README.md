@@ -47,7 +47,7 @@ The skill itself is one `SKILL.md` plus a `references/` folder. Every platform a
 ### Claude Code (recommended for this repo's primary install path)
 
 ```
-/plugin marketplace add YOUR_GITHUB_USERNAME/refactor-code-skill
+/plugin marketplace add Herdly-AI/refactor-code-skill
 /plugin install refactor-code@refactor-code
 ```
 
@@ -56,7 +56,7 @@ The skill itself is one `SKILL.md` plus a `references/` folder. Every platform a
 Build a `.skill` file from this repo, then upload via Settings → Capabilities → Skills:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/refactor-code-skill
+git clone https://github.com/Herdly-AI/refactor-code-skill
 cd refactor-code-skill/plugins/refactor-code/skills
 zip -r ../../../refactor-code.skill refactor-code/
 ```
@@ -74,7 +74,7 @@ Clone the skill into your Codex skills directory, then run Codex with the skills
 ```bash
 # Clone just the skill folder (not the whole marketplace wrapper)
 git clone --depth 1 --filter=blob:none --sparse \
-  https://github.com/YOUR_GITHUB_USERNAME/refactor-code-skill /tmp/refactor-code-skill
+  https://github.com/Herdly-AI/refactor-code-skill /tmp/refactor-code-skill
 cd /tmp/refactor-code-skill
 git sparse-checkout set plugins/refactor-code/skills/refactor-code
 cp -r plugins/refactor-code/skills/refactor-code ~/.codex/skills/
@@ -91,11 +91,11 @@ Gemini CLI has first-class skill install commands:
 
 ```bash
 # User scope (available across all workspaces)
-gemini skills install https://github.com/YOUR_GITHUB_USERNAME/refactor-code-skill.git \
+gemini skills install https://github.com/Herdly-AI/refactor-code-skill.git \
   --path plugins/refactor-code/skills/refactor-code
 
 # Or workspace scope (committed to the current repo's .gemini/skills/)
-gemini skills install https://github.com/YOUR_GITHUB_USERNAME/refactor-code-skill.git \
+gemini skills install https://github.com/Herdly-AI/refactor-code-skill.git \
   --path plugins/refactor-code/skills/refactor-code \
   --scope workspace
 ```
@@ -108,7 +108,7 @@ Copy into the Cursor skills directory — project-scoped (committed to the repo)
 
 ```bash
 # Clone the repo first
-git clone https://github.com/YOUR_GITHUB_USERNAME/refactor-code-skill /tmp/refactor-code-skill
+git clone https://github.com/Herdly-AI/refactor-code-skill /tmp/refactor-code-skill
 
 # Project scope (recommended for team-shared skills)
 mkdir -p .cursor/skills
@@ -130,10 +130,10 @@ The `skills` CLI by Vercel Labs installs into every agent it detects on your mac
 npx skills list
 
 # Install this skill into all detected agents
-npx skills add YOUR_GITHUB_USERNAME/refactor-code-skill --skill refactor-code
+npx skills add Herdly-AI/refactor-code-skill --skill refactor-code
 
 # Or target specific agents only
-npx skills add YOUR_GITHUB_USERNAME/refactor-code-skill \
+npx skills add Herdly-AI/refactor-code-skill \
   --skill refactor-code -a claude-code -a cursor -a codex
 ```
 
