@@ -17,8 +17,8 @@
       "author": {
         "name": "Stephanie Honore"
       },
-      "homepage": "https://github.com/scarlett-danger/refactor-code-skill",
-      "repository": "https://github.com/scarlett-danger/refactor-code-skill",
+      "homepage": "https://github.com/Herdly-AI/refactor-code-skill",
+      "repository": "https://github.com/Herdly-AI/refactor-code-skill",
       "license": "MIT",
       "keywords": ["refactoring", "code-quality", "design-patterns", "code-smells", "fowler", "gof", "solid", "typescript", "python", "react", "go", "cpp"],
       "category": "development"

@@ -46,5 +46,5 @@ so they stay in sync. The plugin.json version wins silently when they drift.
 - MIT LICENSE.
 - GitHub Actions workflow and `scripts/validate.py` for automated manifest and skill validation on every push and PR.
 
-[Unreleased]: https://github.com/scarlett-danger/refactor-code-skill/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/scarlett-danger/refactor-code-skill/releases/tag/v1.0.0
+[Unreleased]: https://github.com/Herdly-AI/refactor-code-skill/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/Herdly-AI/refactor-code-skill/releases/tag/v1.0.0
